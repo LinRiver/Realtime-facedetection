@@ -14,10 +14,8 @@ This project attempts to integrate these pretrained models to build up the multi
 in the near future it can be deployed on APP and Intel architecture platform with Qt and OpenVINO.
 
 # Demo
-![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-01-43 的螢幕擷圖.png)
-![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-02-03 的螢幕擷圖.png)
-![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-02-42 的螢幕擷圖.png)
-![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-02-53 的螢幕擷圖.png)
+In demo_image folder there are four demo images for face detection on different conditions.
+In is clear that this face detection is not influenced by light and hat.
 
 # TODO
 1. Resolve the bug for the ROI when running four models at the same time
