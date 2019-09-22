@@ -2,16 +2,22 @@
 This project is the integration of three real-time face detection functions, face recognition, age and gender detection.
 
 # Dependence
-OPenCV-3.4.3
-OpenCV-3.4.3-contrib
-C++11
-Tensoflow-1.14
+1. OpenCV-3.4.3
+2. OpenCV-3.4.3-contrib
+3. C++11
+4. Tensoflow-1.14
 
 # Description
 There are four main pretrained models below; 
 face_detector from Tensorflow, age_net and gender_net from Caffe, face_net from Torch.
 This project attempts to integrate these pretrained models to build up the multi-functional camera product,
 in the near future it can be deployed on APP and Intel architecture platform with Qt and OpenVINO.
+
+# Demo
+![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-01-43 的螢幕擷圖.png)
+![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-02-03 的螢幕擷圖.png)
+![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-02-42 的螢幕擷圖.png)
+![image](https://github.com/LinRiver/Realtime_facedetection/tree/master/demo_image/2019-09-22 19-02-53 的螢幕擷圖.png)
 
 # TODO
 1. Resolve the bug for the ROI when running four models at the same time
