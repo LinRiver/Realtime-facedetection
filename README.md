@@ -6,6 +6,7 @@ This project is the integration of three real-time face detection functions, fac
 2. OpenCV-3.4.3-contrib
 3. C++11
 4. Tensoflow-1.14
+5. Ubuntu 16.04
 
 # Description
 There are four main pretrained models below; 
